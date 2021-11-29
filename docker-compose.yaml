@@ -1,0 +1,16 @@
+version: '2.8'
+services:
+  e2etest:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+
+    environment:
+      - HUB_HOST=selenium-hub
+      - HUB_PORT=9515
+
+    ports:
+      - '9515'
+
+    #volumes:
+    #  - ./:/app

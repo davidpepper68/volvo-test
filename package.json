@@ -1,0 +1,28 @@
+{
+    "name": "webdriverio-tests",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "@wdio/allure-reporter": "^7.16.10",
+        "@wdio/cli": "^7.16.10",
+        "@wdio/devtools-service": "^7.16.10",
+        "@wdio/local-runner": "^7.16.10",
+        "@wdio/mocha-framework": "^7.16.6",
+        "@wdio/selenium-standalone-service": "^7.16.6",
+        "chromedriver": "^96.0.0",
+        "wdio-chromedriver-service": "^7.2.2",
+        "wdio-selenium-standalone-service": "^0.0.12"
+    },
+    "scripts": {
+        "wdio": "npx run ./wdio.conf.js"
+    },
+    "dependencies": {
+        "allure": "^0.0.0",
+        "allure-commandline": "^2.13.8",
+        "chai": "^4.3.4",
+        "geckodriver": "^2.0.4",
+        "protractor-firefox-support": "^2.0.0",
+        "wdio-docker-service": "^3.1.4",
+        "webdriver-manager": "^12.1.8"
+    }
+}

@@ -1,0 +1,2 @@
+export CONTAINER_NAME=volvo-more
+export REPO_NAME=volvo.com/$CONTAINER_NAME
